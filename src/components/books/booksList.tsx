@@ -1,12 +1,20 @@
-import { List, Datagrid, TextField, ReferenceField, NumberField } from 'react-admin';
+import {
+  List,
+  Datagrid,
+  TextField,
+  ReferenceField,
+  NumberField,
+  EditButton,
+} from 'react-admin';
 
 const BooksList = () => {
   return (
     <List>
-      <Datagrid rowClick="edit">
+      <Datagrid>
         <TextField source="title" />
         <ReferenceField source="authorId" reference="authors" />
         <NumberField source="published_year" />
+        <EditButton />
       </Datagrid>
     </List>
   );

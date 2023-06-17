@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "no-console": "warn",
+    "camelcase": "warn",
+    "no-unused-vars": "error",
+    "func-style": ["error", "expression"]
+  }
+}

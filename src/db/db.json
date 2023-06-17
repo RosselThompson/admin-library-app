@@ -1,0 +1,183 @@
+{
+    "authors": [
+      {
+        "id": 1,
+        "name": "George Orwell",
+        "nationality": "British",
+        "birthday": "June 25, 1903"
+      },
+      {
+        "id": 2,
+        "name": "Harper Lee",
+        "nationality": "American",
+        "birthday": "April 28, 1926"
+      },
+      {
+        "id": 3,
+        "name": "Jane Austen",
+        "nationality": "British",
+        "birthday": "December 16, 1775"
+      },
+      {
+        "id": 4,
+        "name": "F. Scott Fitzgerald",
+        "nationality": "American",
+        "birthday": "September 24, 1896"
+      },
+      {
+        "id": 5,
+        "name": "Herman Melville",
+        "nationality": "American",
+        "birthday": "August 1, 1819"
+      },
+      {
+        "id": 6,
+        "name": "J.D. Salinger",
+        "nationality": "American",
+        "birthday": "January 1, 1919"
+      },
+      {
+        "id": 7,
+        "name": "J.R.R. Tolkien",
+        "nationality": "British",
+        "birthday": "January 3, 1892"
+      },
+      {
+        "id": 8,
+        "name": "J.K. Rowling",
+        "nationality": "British",
+        "birthday": "July 31, 1965"
+      },
+      {
+        "id": 9,
+        "name": "Virginia Woolf",
+        "nationality": "British",
+        "birthday": "January 25, 1882"
+      },
+      {
+        "id": 10,
+        "name": "Aldous Huxley",
+        "nationality": "British",
+        "birthday": "July 26, 1894"
+      },
+      {
+        "id": 11,
+        "name": "Fyodor Dostoevsky",
+        "nationality": "Russian",
+        "birthday": "November 11, 1821"
+      },
+      {
+        "id": 12,
+        "name": "Mark Twain",
+        "nationality": "American",
+        "birthday": "November 30, 1835"
+      },
+      {
+        "id": 13,
+        "name": "Homer",
+        "nationality": "Greek",
+        "birthday": "Unknown"
+      },
+      {
+        "id": 14,
+        "name": "Gabriel Garcia Marquez",
+        "nationality": "Colombian",
+        "birthday": "March 6, 1927"
+      }
+    ]
+  ,  
+
+    "books": [
+        {
+          "id": 1,
+          "title": "1984",
+          "authorId": 1,
+          "published_year": "1949"
+        },
+        {
+          "id": 2,
+          "title": "To Kill a Mockingbird",
+          "authorId": 2,
+          "published_year": "1960"
+        },
+        {
+          "id": 3,
+          "title": "Pride and Prejudice",
+          "authorId": 3,
+          "published_year": "1813"
+        },
+        {
+          "id": 4,
+          "title": "The Great Gatsby",
+          "authorId": 4,
+          "published_year": "1925"
+        },
+        {
+          "id": 5,
+          "title": "Moby-Dick",
+          "authorId": 5,
+          "published_year": "1851"
+        },
+        {
+          "id": 6,
+          "title": "The Catcher in the Rye",
+          "authorId": 6,
+          "published_year": "1951"
+        },
+        {
+          "id": 7,
+          "title": "The Lord of the Rings",
+          "authorId": 7,
+          "published_year": "1954"
+        },
+        {
+          "id": 8,
+          "title": "Harry Potter and the Philosopher's Stone",
+          "authorId": 8,
+          "published_year": "1997"
+        },
+        {
+          "id": 9,
+          "title": "To the Lighthouse",
+          "authorId": 9,
+          "published_year": "1927"
+        },
+        {
+          "id": 10,
+          "title": "Brave New World",
+          "authorId": 10,
+          "published_year": "1932"
+        },
+        {
+          "id": 11,
+          "title": "The Hobbit",
+          "authorId": 7,
+          "published_year": "1937"
+        },
+        {
+          "id": 12,
+          "title": "Crime and Punishment",
+          "authorId": 11,
+          "published_year": "1866"
+        },
+        {
+          "id": 13,
+          "title": "The Adventures of Huckleberry Finn",
+          "authorId": 12,
+          "published_year": "1884"
+        },
+        {
+          "id": 14,
+          "title": "The Odyssey",
+          "authorId": 13,
+          "published_year": "Estimated 8th century BCE"
+        },
+        {
+          "id": 15,
+          "title": "One Hundred Years of Solitude",
+          "authorId": 14,
+          "published_year": "1967"
+        }
+      ]
+}
+    

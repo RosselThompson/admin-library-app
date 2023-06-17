@@ -6,7 +6,7 @@ export const App = () => (
     <Admin
         dataProvider={dataProvider}
 	>
-        
+        <Resource name="authors" list={ListGuesser} />
     </Admin>
 );
 

@@ -2,12 +2,15 @@
   "name": "admin-template",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev": "json-server --watch src/db/db.json & vite",
+    "dev:ui": "vite",
+    "dev:server": "json-server --watch src/db/db.json",
     "build": "vite build",
     "serve": "vite preview",
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "json-server": "^0.17.3",
     "ra-data-json-server": "^4.9.2",
     "react": "^18.2.0",
     "react-admin": "^4.9.0",

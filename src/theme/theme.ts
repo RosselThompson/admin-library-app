@@ -23,10 +23,7 @@ export const customTheme = {
       dark: '#ba000d',
       contrastText: '#000',
     },
-  },
-  typography: {
-    fontFamily: 'Poppins',
-  },
+  }
 };
 
 export const customDarkTheme = { ...customTheme, palette: { mode: 'dark' } };

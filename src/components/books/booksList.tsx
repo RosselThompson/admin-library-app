@@ -12,7 +12,7 @@ const BooksList = () => {
     <List>
       <Datagrid>
         <TextField source="title" />
-        <ReferenceField source="authorId" reference="authors" />
+        <ReferenceField source="authorId" reference="authors" link={false}/>
         <NumberField source="published_year" />
         <EditButton />
       </Datagrid>

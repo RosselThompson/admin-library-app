@@ -1,12 +1,13 @@
-import { Edit, SimpleForm, TextInput, DateInput, required } from 'react-admin';
+import { Edit, SimpleForm, required } from 'react-admin';
+import StyledInput from '@/components/common/StyledInput/StyledInput';
 
 const AuthorsEdit = () => {
   return (
-    <Edit redirect="list" >
+    <Edit redirect="list">
       <SimpleForm>
-        <TextInput source="name" validate={[required()]} />
-        <TextInput source="nationality" />
-        <DateInput source="birthday" />
+        <StyledInput inputtype="text" source="name" validate={[required()]} />
+        <StyledInput inputtype="text" source="nationality" />
+        <StyledInput inputtype="date" source="birthday" />
       </SimpleForm>
     </Edit>
   );

@@ -88,7 +88,7 @@
   "books": [
     {
       "id": 1,
-      "title": "1984",
+      "title": "1984 updated",
       "authorId": 1,
       "published_year": "1949"
     },
